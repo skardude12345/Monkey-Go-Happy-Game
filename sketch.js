@@ -63,7 +63,6 @@ function draw(){
     monkey.velocityY = -10;
    }
   }
-  console.log(monkey.y);
   
   if (monkey.isTouching(bananaGroup)){
     bananaGroup.destroyEach();
